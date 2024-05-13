@@ -1,0 +1,89 @@
+Question_code,Answer_type,Answer_code,Answer_name,Answer_meaning
+QUESTID2,direct,,Respondent identification,The unique record indentifier given to the respondent for this particular study year
+AGE3,optional,1,12 or 13 years old,The respondent is 12 or 13 years old
+AGE3,optional,2,14 or 15 years old,The respondent is 14 or 15 years old
+AGE3,optional,3,16 or 17 years old,The respondent is 16 or 17 years old
+AGE3,optional,4,Between 18 and 20 years old,The respondent is between 18 and 20 years old
+AGE3,optional,5,Between 21 and 23 years old,The respondent is between 21 and 23 years old
+AGE3,optional,6,24 or 25 years old,The respondent is 24 or 25 years old
+AGE3,optional,7,Between 26 and 29 years old,The respondent is between 26 and 29 years old
+AGE3,optional,8,Between 30 and 34 years old,The respondent is between 30 and 34 years old
+AGE3,optional,9,Between 35 and 49 years old,The respondent is between 35 and 49 years old
+AGE3,optional,10,Between 50 and 64 years old,The respondent is between 50 and 64 years old
+AGE3,optional,11,65 years old or older,The respondent is 65 years old or older
+IRSEX,optional,1,Male,The respondent is male
+IRSEX,optional,2,Female,The respondent is female
+COUTYP4,optional,1,Large Metro,The respondent resides in a large metropolitan area
+COUTYP4,optional,2,Small metro,The respondent resides in a small metropolitan area
+COUTYP4,optional,3,Nonmetro,The respondent does not live in a metropolitan area
+CIGEVER,optional,1,Yes,The respondent has smoked a cigarette before
+CIGEVER,optional,2,No ,The respondent has never smoked a cigarette
+CG30EST,optional,1,1 or 2 days,The respondent smoked cigarettes 1 or 2 days in the past 30 days 
+CG30EST,optional,2,3 to 5 days,The respondent smoked cigarettes 3 to 5 days in the past 30 days
+CG30EST,optional,3,6 to 9 days,The respondent smoked cigarettes 6 to 9 days in the past 30 days
+CG30EST,optional,4,10 to 19 days,The respondent smoked cigarettes 10 to 19 days in the past 30 days
+CG30EST,optional,5,20 to 29 days,The respondent smoked cigarettes 20 to 29 days in the past 30 days
+CG30EST,optional,6,All 30 days,The respondent smoked cigarettes all 30 days in the past 30 days
+CG30EST,optional,91,NEVER USED CIGARETTES,The respondent has never used cigarettes
+CG30EST,optional,93,DID NOT USE CIGARETTES IN THE PAST 30 DAYS,The respondent did not use cigarettes in the past 30 days
+CG30EST,optional,94,DON'T KNOW,The respondent did not know the answer
+CG30EST,optional,97,REFUSED,The respondent refused to answer the question
+CG30EST,optional,98,BLANK (NO ANSWER),No answer was given for this question
+CG30EST,optional,99,LEGITIMATE SKIP,The respondent skipped this question
+CIG30AV,optional,1,Less than one cigarette per day,The average number of cigarettes the respondent smoked per day during the past 30 days was less than one cigarette
+CIG30AV,optional,2,1 cigarette per day,The average number of cigarettes the respondent smoked per day during the past 30 days was 1 cigarette
+CIG30AV,optional,3,2 to 5 cigarettes per day,The average number of cigarettes the respondent smoked per day during the past 30 days was 2 to 5 cigarettes
+CIG30AV,optional,4,6 to 15 cigarettes per day (about 1/2 pack),The average number of cigarettes the respondent smoked per day during the past 30 days was 6 to 15 (about half a pack)
+CIG30AV,optional,5,16 to 25 cigarettes per day (about 1 pack),The average number of cigarettes the respondent smoked per day during the past 30 days was 16 to 25 (about 1 pack)
+CIG30AV,optional,6,26 to 35 cigarettes per day (about 1 1/2 packs),The average number of cigarettes the respondent smoked per day during the past 30 days was 26 to 35 (about 1 1/2 packs)
+CIG30AV,optional,7,More than 35 cigarettes per day (about 2 packs or more),The average number of cigarettes the respondent smoked per day during the past 30 days was more than 35 (about 2 packs or more)
+CIG30AV,optional,91,NEVER USED CIGARETTES,The respondent never before used cigarettes
+CIG30AV,optional,93,DID NOT USE CIGARETTES IN THE PAST 30 DAYS,The respondent has used cigarettes before but has not used them in the past 30 days
+CIG30AV,optional,94,DON'T KNOW,The respondent did not know the answer
+CIG30AV,optional,97,REFUSED,The respondent refused to answer the question
+CIG30AV,optional,98,BLANK (NO ANSWER),No answer was given for this question
+ALCEVER,optional,1,Yes,The respondent has had a drink of any type of alcoholic beverage before
+ALCEVER,optional,2,No,The respondent has never had a drink of any type of alcoholic beverage
+ALCEVER,optional,85,BAD DATA Logically assigned,Bad data given for question
+ALCEVER,optional,94,DON'T KNOW,The respondent does not know the answer
+ALCEVER,optional,97,REFUSED,The respondent refused to answer the question
+AL30EST,optional,1,1 or 2 days,The respondent drank alcohol 1 or 2 days during the past 30 days
+AL30EST,optional,2,3 to 5 days,The respondent drank alcohol 3 to 5 days during the past 30 days
+AL30EST,optional,3,6 to 9 days,The respondent drank alcohol 6 to 9 days during the past 30 days
+AL30EST,optional,4,10 to 19 days,The respondent drank alcohol 10 to 19 days during the past 30 days
+AL30EST,optional,5,20 to 29 days,The respondent drank alcohol 20 to 29 days during the past 30 days
+AL30EST,optional,6,All 30 days,The respondent drank alcohol all 30 days during the past 30 days
+AL30EST,optional,91,NEVER USED ALCOHOL,The respondent has never before drank an alcoholic beverage
+AL30EST,optional,93,DID NOT USE ALCOHOL IN THE PAST 30 DAYS,The respondent has drank alcohol before but has not drinken it in the past 30 days
+AL30EST,optional,94,DON'T KNOW,The respondent does not know the answer
+AL30EST,optional,97,REFUSED,The respondent refused to answer the question
+AL30EST,optional,98,BLANK (NO ANSWER),No answer was given for this question
+AL30EST,optional,99,LEGITIMATE SKIP,The respondent skipped this question
+ALCUS30D,direct,1,90,"During the days the respondent drank in the past 30 days, they usually had X drink(s)"
+ALCUS30D,optional,975,AT LEAST 4 or 5 Logically assigned,"During the days the respondent drank in the past 30 days, they usually had 4 or 5 drink(s)"
+ALCUS30D,optional,985,BAD DATA Logically assigned,The respondent provided bad data
+ALCUS30D,optional,991,NEVER USED ALCOHOL,The respondent has never used alcohol
+ALCUS30D,optional,993,DID NOT USE ALCOHOL IN THE PAST 30 DAYS,The respondent has used alcohol before but has not used alcohol in the past 30 days
+ALCUS30D,optional,994,DON'T KNOW,The respondent did not know the answer
+ALCUS30D,optional,997,REFUSED,The respondent refused to answer the question
+ALCUS30D,optional,998,BLANK (NO ANSWER),There was no answer given for thsi question
+CBDHMPEVER,optional,1,Yes,The respondent has used CBD or hemp products before
+CBDHMPEVER,optional,2,No,The respondent has never used CBD or hemp products
+CBDHMPEVER,optional,94,DON'T KNOW,The respondent does not know the answer
+CBDHMPEVER,optional,97,REFUSED,The respondent refused to answer the question
+MJEVER,optional,1,Yes,The respondent has used marijuana/cannabis
+MJEVER,optional,2,No,The respondent has never used marijuana/cannabis
+MJEVER,optional,94,DON'T KNOW,The respondent does not know the answer
+MJEVER,optional,97,REFUSED,The respondent refused to answer the question
+MR30EST,optional,1,1 or 2 days,The best estimate of the number of days the respondent used marijuana or any cannabis product during the past 30 days was 1 or 2 days
+MR30EST,optional,2,3 to 5 days,The best estimate of the number of days the respondent used marijuana or any cannabis product during the past 30 days was 3 to 5 days
+MR30EST,optional,3,6 to 9 days,The best estimate of the number of days the respondent used marijuana or any cannabis product during the past 30 days was 6 to 9 days
+MR30EST,optional,4,10 to 19 days,The best estimate of the number of days the respondent used marijuana or any cannabis product during the past 30 days was 10 to 19 days
+MR30EST,optional,5,20 to 29 days,The best estimate of the number of days the respondent used marijuana or any cannabis product during the past 30 days was 20 to 29 days
+MR30EST,optional,6,All 30 days,The best estimate of the number of days the respondent used marijuana or any cannabis product during the past 30 days was all 30 days
+MR30EST,optional,91,NEVER USED MARIJUANA,The respondent never used marijuana
+MR30EST,optional,93,DID NOT USE MARIJUANA IN THE PAST 30 DAYS,The respondent has used marijuana before but did not use marijuana in the past 30 days
+MR30EST,optional,94,DON'T KNOW,The respondent does not know the answer
+MR30EST,optional,97,REFUSED,The respondent refused to answer the question
+MR30EST,optional,98,BLANK (NO ANSWER),There was no answer given for thsi question
+MR30EST,optional,99,LEGITIMATE SKIP ,The respondent skipped this question
