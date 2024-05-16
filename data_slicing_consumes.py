@@ -1,14 +1,13 @@
 import pandas as pd
 
 # Load the TSV file
-data = pd.read_csv('NSDUH_2022_Tab 2.txt', delimiter='\t')
+data = pd.read_csv('NSDUH_2022_Tab.txt', delimiter='\t')
 
 # Load the data dictionary
 data_dictionary = pd.read_csv('Schare_DataDictionary_RawData_SAMHSA_NSDUH_2022.csv')
 
 # Load the substances data
 substances = pd.read_csv('substance.csv')
-
 
 def apply_mapping(column_name, data_series):
     # Filter the data dictionary for the current column
@@ -39,7 +38,7 @@ def apply_mapping(column_name, data_series):
     return result_series
 
 # Function to create data frames for each substance
-def create_substance_data(substance_name, substance_code_column, days_column, avg_column=None):
+def create_substance_data(substance_name, substance_code_column, days_column, try_column, avg_column=None):
     filtered_data = data[data[substance_code_column] == 1]
     substance_row = substances[substances['SubstanceName'] == substance_name]
     substance_id = substance_row['SubstanceID'].iloc[0]
@@ -48,6 +47,7 @@ def create_substance_data(substance_name, substance_code_column, days_column, av
     substance_data['PersonID'] = filtered_data['QUESTID2']
     substance_data['SubstanceID'] = substance_id
     substance_data['DaysConsumedPast30Days'] = apply_mapping(days_column, filtered_data[days_column])
+    substance_data['AgeFirstTried'] = apply_mapping(try_column, filtered_data[try_column])
     if avg_column:
         substance_data['AvgConsumedInPast30Days'] = apply_mapping(avg_column, filtered_data[avg_column])
     else:
@@ -56,9 +56,9 @@ def create_substance_data(substance_name, substance_code_column, days_column, av
     return substance_data
 
 # Create data frames for each substance
-consumes_cigs_data = create_substance_data('Cigarettes', 'CIGEVER', 'CG30EST', 'CIG30AV')
-consumes_alcohol_data = create_substance_data('Alcohol', 'ALCEVER', 'AL30EST', 'ALCUS30D')
-consumes_mj_data = create_substance_data('Marijuana', 'MJEVER', 'MR30EST')
+consumes_cigs_data = create_substance_data('Cigarettes', 'CIGEVER', 'CG30EST', 'CIGTRY', 'CIG30AV')
+consumes_alcohol_data = create_substance_data('Alcohol', 'ALCEVER', 'AL30EST', 'ALCTRY', 'ALCUS30D')
+consumes_mj_data = create_substance_data('Marijuana', 'MJEVER', 'MR30EST', 'MJAGE')
 
 # Combine data frames
 combined_data = pd.concat([consumes_cigs_data, consumes_alcohol_data, consumes_mj_data], ignore_index=True)

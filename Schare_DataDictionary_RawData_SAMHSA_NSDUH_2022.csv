@@ -28,7 +28,7 @@ CG30EST,optional,91,NEVER USED CIGARETTES,The respondent has never used cigarett
 CG30EST,optional,93,DID NOT USE CIGARETTES IN THE PAST 30 DAYS,The respondent did not use cigarettes in the past 30 days
 CG30EST,optional,94,DON'T KNOW,The respondent did not know the answer
 CG30EST,optional,97,REFUSED,The respondent refused to answer the question
-CG30EST,optional,98,BLANK (NO ANSWER),No answer was given for this question
+CG30EST,optional,98,BLANK (NO ANSWER),There was no answer given for this question
 CG30EST,optional,99,LEGITIMATE SKIP,The respondent skipped this question
 CIG30AV,optional,1,Less than one cigarette per day,The average number of cigarettes the respondent smoked per day during the past 30 days was less than one cigarette
 CIG30AV,optional,2,1 cigarette per day,The average number of cigarettes the respondent smoked per day during the past 30 days was 1 cigarette
@@ -66,7 +66,7 @@ ALCUS30D,optional,991,NEVER USED ALCOHOL,The respondent has never used alcohol
 ALCUS30D,optional,993,DID NOT USE ALCOHOL IN THE PAST 30 DAYS,The respondent has used alcohol before but has not used alcohol in the past 30 days
 ALCUS30D,optional,994,DON'T KNOW,The respondent did not know the answer
 ALCUS30D,optional,997,REFUSED,The respondent refused to answer the question
-ALCUS30D,optional,998,BLANK (NO ANSWER),There was no answer given for thsi question
+ALCUS30D,optional,998,BLANK (NO ANSWER),There was no answer given for this question
 CBDHMPEVER,optional,1,Yes,The respondent has used CBD or hemp products before
 CBDHMPEVER,optional,2,No,The respondent has never used CBD or hemp products
 CBDHMPEVER,optional,94,DON'T KNOW,The respondent does not know the answer
@@ -85,5 +85,33 @@ MR30EST,optional,91,NEVER USED MARIJUANA,The respondent never used marijuana
 MR30EST,optional,93,DID NOT USE MARIJUANA IN THE PAST 30 DAYS,The respondent has used marijuana before but did not use marijuana in the past 30 days
 MR30EST,optional,94,DON'T KNOW,The respondent does not know the answer
 MR30EST,optional,97,REFUSED,The respondent refused to answer the question
-MR30EST,optional,98,BLANK (NO ANSWER),There was no answer given for thsi question
+MR30EST,optional,98,BLANK (NO ANSWER),There was no answer given for this question
 MR30EST,optional,99,LEGITIMATE SKIP ,The respondent skipped this question
+CIGTRY,direct,1,60,Age when respondent first tried a cigarette
+CIGTRY,optional,985,BAD DATA Logically assigned,The respondent provided bad data
+CIGTRY,optional,991,NEVER USED CIGARETTES,The respondent has never before used cigarettes
+CIGTRY,optional,994,DON'T KNOW,The respondent does not know the answer
+CIGTRY,optional,997,REFUSED,The respondent refused to answer the question
+ALCTRY,direct,1,89,Age when respondent first tried alcohol
+ALCTRY,optional,985,BAD DATA Logically assigned,The respondent provided bad data
+ALCTRY,optional,991,NEVER USED ALCOHOL,The respondent has never before used alcohol
+ALCTRY,optional,994,DON'T KNOW,The respondent does not know the answer
+ALCTRY,optional,997,REFUSED,The respondent refused to answer the question
+ALCTRY,optional,998,BLANK (NO ANSWER),There was no answer given for this question
+MJAGE,direct,1,83,Age when respondent first tried cannabis/marijuana
+MJAGE,optional,985,BAD DATA Logically assigned,The respondent provided bad data
+MJAGE,optional,991,NEVER USED MARIJUANA,The respondent has never before used cannabis/marijuana
+MJAGE,optional,994,DON'T KNOW,The respondent does not know the answer
+MJAGE,optional,997,REFUSED,The respondent refused to answer the question
+MJAGE,optional,998,BLANK (NO ANSWER),There was no answer given for this question
+CADRKDRUG,optional,1,Yes,"The last time the respondent has drank in the past 30 days, they used a drug while drinking or within a couple of hours of drinking"
+CADRKDRUG,optional,2,No,"The last time the respondent has drank in the past 30 days, they did not use a drug while drinking or within a couple of hours of drinking"
+CADRKDRUG,optional,85,BAD DATA Logically assigned,The respondent provided bad data
+CADRKDRUG,optional,91,NEVER USED ALCOHOL OR NEVER USED OTHER DRUGS,The respondent has never had alcohol and/or they have never had drugs
+CADRKDRUG,optional,93,DIDN'T USE ALCOHOL OR DIDN'T USE DRUGS IN THE PAST 30 DAYS,The respondent had not drank in the past 30 days and/or had not drank in combination with using drugs in the past 30 days
+CADRKDRUG,optional,94,DON'T KNOW,The respondent does not know the answer
+CADRKDRUG,optional,97,REFUSED,The respondent refused to answer the question
+CADRKDRUG,optional,98,BLANK (NO ANSWER),There was no answer given for this question
+CADRKMARJ2,optional,1,Yes,"The last time the respondent drank in the past 30 days, they used marijuana/cannabis while drinking or within a couple of hours of drinking"
+CADRKMARJ2,optional,2,No,"The last time the respondent drank in the past 30 days, they did not use marijuana/cannabis while drinking or within a couple hours of drinking OR the respondent has not drank in the past 30 days OR the respondent has never used drugs OR the respondent have never drank alcohol"
+CADRKMARJ2,optional,.,Unknown,It is unknown whether the respondent has drank in the past 30 days and used marijuana while drinking or within a couple of hours of drinking
