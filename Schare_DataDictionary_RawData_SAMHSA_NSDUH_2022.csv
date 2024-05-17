@@ -131,3 +131,38 @@ IREDUHIGHST2,optional,8,High school diploma/GED,The respondent's highest educati
 IREDUHIGHST2,optional,9,"Some college credit, but no degree",The respondent's highest education level is college (received no degree)
 IREDUHIGHST2,optional,10,Associate's degree,The respondent's highest education level is a college associate's degree
 IREDUHIGHST2,optional,11,College graduate or higher,The respondent's highest education level is a college graduate degree or higher
+NICVAPEVER,optional,1,Yes,The respondent has vaped nicotine with an e-cigarette or other vaping device before
+NICVAPEVER,optional,2,No,The respondent has never vaped nicotine with an e-cigarette or other vaping device
+NICVAPEVER,optional,94,DON'T KNOW,The respondent does not know the answer
+NICVAPEVER,optional,97,REFUSED,The respondent refused to answer the question
+NICVAPAGE,direct,1,80,The respondent's age when they first vaped nicotine with an e-cigarette or other vaping device
+NICVAPAGE,optional,985,BAD DATA Logically assigned,The respondent provided bad data
+NICVAPAGE,optional,991,NEVER VAPED NICOTINE,The respondent has never vaped nicotine with an e-cigarette or other vaping device
+NICVAPAGE,optional,994,DON'T KNOW,The respondent does not know the answer
+NICVAPAGE,optional,997,REFUSED,The respondent refused to answer the question
+NICVAPAGE,optional,998,BLANK (NO ANSWER),There was no answer given for this question
+NICVAP30N,direct,1,30,The number of days the respondent vaped nicotine with an e-cigarette or other vaping device in the past 30 days
+NICVAP30N,optional,91,NEVER VAPED NICOTINE,The respondent has never vaped nicotine with an e-cigarette or other vaping device
+NICVAP30N,optional,93,DID NOT VAPE NICOTINE IN PAST 30 DAYS ,The respondent has vaped nicotine with an e-cigarette or other vaping device before but has not done so in the past 30 days
+NICVAP30N,optional,94,DON'T KNOW,The respondent does not know the answer
+NICVAP30N,optional,97,REFUSED,The respondent refused to answer the question
+NICVAP30N,optional,98,BLANK (NO ANSWER),There was no answer given for this question
+CIG30USE,direct,1,30,The number of days in the past 30 days that the respondent has smoked part or all of a cigarette
+CIG30USE,optional,91,NEVER USED CIGARETTES,The respondent has never used cigarettes
+CIG30USE,optional,93,DID NOT USE CIGARETTES IN THE PAST 30 DAYS,The respondent has used cigarettes before but has not used them in the past 30 days
+CIG30USE,optional,94,DON'T KNOW,The respondent does not know the answer
+CIG30USE,optional,97,REFUSED,The respondent refused to answer the question
+CIG30USE,optional,98,BLANK (NO ANSWER),There was no answer given for this question
+ALCDAYS,direct,1,30,The number of days the respondent had one or more drinks in the past 30 days
+ALCDAYS,optional,85,BAD DATA Logically assigned,The respondent provided bad data
+ALCDAYS,optional,91,NEVER USED ALCOHOL,The respondent has never used alcohol
+ALCDAYS,optional,93,DID NOT USE ALCOHOL IN THE PAST 30 DAYS,The respondent has used alcohol before but has not used alcohol in the past 30 days
+ALCDAYS,optional,94,DON'T KNOW,The respondent does not know the answer
+ALCDAYS,optional,97,REFUSED,The respondent refused to answer the question
+ALCDAYS,optional,98,BLANK (NO ANSWER),There was no answer given for this question
+MJDAY30A,direct,1,30,The number of days the respondent used marijuana/cannabis in the past 30 days
+MJDAY30A,optional,91,NEVER USED MARIJUANA,The respondent has never used marijuana/cannabis
+MJDAY30A,optional,93,DID NOT USE MARIJUANA IN THE PAST 30 DAYS,The respondent has used marijuana/cannabis but has not done so in the past 30 days
+MJDAY30A,optional,94,DON'T KNOW,The respondent does not know the answer
+MJDAY30A,optional,97,REFUSED,The respondent refused to answer the question
+MJDAY30A,optional,98,BLANK (NO ANSWER),There was no answer given for this question

@@ -56,12 +56,13 @@ def create_substance_data(substance_name, substance_code_column, days_column, tr
     return substance_data
 
 # Create data frames for each substance
-consumes_cigs_data = create_substance_data('Cigarettes', 'CIGEVER', 'CG30EST', 'CIGTRY', 'CIG30AV')
-consumes_alcohol_data = create_substance_data('Alcohol', 'ALCEVER', 'AL30EST', 'ALCTRY', 'ALCUS30D')
-consumes_mj_data = create_substance_data('Marijuana', 'MJEVER', 'MR30EST', 'MJAGE')
+consumes_cigs_data = create_substance_data('Cigarettes', 'CIGEVER', 'CIG30USE', 'CIGTRY', 'CIG30AV')
+consumes_alcohol_data = create_substance_data('Alcohol', 'ALCEVER', 'ALCDAYS', 'ALCTRY', 'ALCUS30D')
+consumes_mj_data = create_substance_data('Marijuana', 'MJEVER', 'MJDAY30A', 'MJAGE')
+consumes_nic_ecigs_vapes = create_substance_data('Nicotine E-cigarettes/vapes', 'NICVAPEVER', 'NICVAP30N', 'NICVAPAGE')
 
 # Combine data frames
-combined_data = pd.concat([consumes_cigs_data, consumes_alcohol_data, consumes_mj_data], ignore_index=True)
+combined_data = pd.concat([consumes_cigs_data, consumes_alcohol_data, consumes_mj_data, consumes_nic_ecigs_vapes], ignore_index=True)
 
 # Save the combined data to CSV
 combined_data.to_csv('consumes.csv', header=True, index=False)
