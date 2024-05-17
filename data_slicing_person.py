@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Load the TSV file
-data = pd.read_csv('NSDUH_2022_Tab 2.txt', delimiter='\t')
+data = pd.read_csv('NSDUH_2022_Tab.txt', delimiter='\t')
 
 # Load the data dictionary
-data_dictionary = pd.read_csv('Schare_DataDictionary_RawData_SAMHSA_NSDUH_2022 - Sheet1 (1).csv')
+data_dictionary = pd.read_csv('Schare_DataDictionary_RawData_SAMHSA_NSDUH_2022.csv')
 
 # Create a new DataFrame for the output
 person_data = pd.DataFrame()
@@ -38,6 +38,8 @@ def apply_mapping(column_name, data_series):
 person_data['Age'] = apply_mapping('AGE3', data['AGE3'])
 person_data['Sex'] = apply_mapping('IRSEX', data['IRSEX'])
 person_data['RuralStatus'] = apply_mapping('COUTYP4', data['COUTYP4'])
+person_data['MaritalStatus'] = apply_mapping('IRMARIT', data['IRMARIT'])
+person_data['Education'] = apply_mapping('IREDUHIGHST2', data['IREDUHIGHST2'])
 
 # Save the processed data to CSV
 person_data.to_csv('person.csv', index=False)

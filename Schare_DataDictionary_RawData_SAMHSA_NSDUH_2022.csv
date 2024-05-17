@@ -115,3 +115,19 @@ CADRKDRUG,optional,98,BLANK (NO ANSWER),There was no answer given for this quest
 CADRKMARJ2,optional,1,Yes,"The last time the respondent drank in the past 30 days, they used marijuana/cannabis while drinking or within a couple of hours of drinking"
 CADRKMARJ2,optional,2,No,"The last time the respondent drank in the past 30 days, they did not use marijuana/cannabis while drinking or within a couple hours of drinking OR the respondent has not drank in the past 30 days OR the respondent has never used drugs OR the respondent have never drank alcohol"
 CADRKMARJ2,optional,.,Unknown,It is unknown whether the respondent has drank in the past 30 days and used marijuana while drinking or within a couple of hours of drinking
+IRMARIT,optional,1,Married,The respondent is married
+IRMARIT,optional,2,Widowed,The respondent is widowed
+IRMARIT,optional,3,Divorced or separated,The respondent is divorced or separated
+IRMARIT,optional,4,Never been married,The respondent has never been married
+IRMARIT,optional,99,LEGITIMATE SKIP Respondent is <= 14 years old,The respondent is not married because they are less than or equal to 14 years old
+IREDUHIGHST2,optional,1,Fifth grade or less completed,The respondent's highest education level is fifth grade or less
+IREDUHIGHST2,optional,2,Sixth grade completed,The respondent's highest education level is sixth grade
+IREDUHIGHST2,optional,3,Seventh grade completed,The respondent's highest education level is seventh grade
+IREDUHIGHST2,optional,4,Eighth grade completed,The respondent's highest education level is eighth grade
+IREDUHIGHST2,optional,5,Nineth grade completed,The respondent's highest education level is nineth grade
+IREDUHIGHST2,optional,6,Tenth grade completed,The respondent's highest education level is tenth grade
+IREDUHIGHST2,optional,7,"Eleventh or twelfth grade completed, no diploma","The respondent's highest education level is eleventh or twelfth grade, but the did not receive a high school diploma"
+IREDUHIGHST2,optional,8,High school diploma/GED,The respondent's highest education level is a high school (received diploma or GED)
+IREDUHIGHST2,optional,9,"Some college credit, but no degree",The respondent's highest education level is college (received no degree)
+IREDUHIGHST2,optional,10,Associate's degree,The respondent's highest education level is a college associate's degree
+IREDUHIGHST2,optional,11,College graduate or higher,The respondent's highest education level is a college graduate degree or higher
